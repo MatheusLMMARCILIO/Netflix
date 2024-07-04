@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.whoWatch {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    margin: 40px 0px;
+}
+
+.text span {
+    font-size: 58px;
+    color: white;
+}
+
+.avatartBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar img {
+    max-width: 170px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.avatar img:hover {
+    border: 2px solid white;
+}
+
+.avatar span {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px 20px;
+}
+
+.btn button {
+    width: 240px;
+    height: 45px;
+    background-color: black;
+    border: 1px solid #ffffff5d;
+    cursor: pointer;
+    color: #ffffff5d;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.btn button:hover {
+  border: 1px solid white;
+  color: white;
+}
