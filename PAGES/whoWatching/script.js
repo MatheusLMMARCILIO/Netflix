@@ -1,1 +1,0 @@
-import nome from '.'

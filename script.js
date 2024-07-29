@@ -1,4 +1,6 @@
-const nome = prompt('Qual o seu nome?')
+
+
+export const nome = prompt('Qual o seu nome?')
 
 alert(`Login = ${nome} | Senha = 123 `)
 
@@ -16,3 +18,4 @@ btnSubmit.addEventListener("click", () => {
     }
 
 })
+

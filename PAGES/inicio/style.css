@@ -98,3 +98,15 @@ li {
 
 }
 
+/************************************/
+
+.wrapper .draggable{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.draggable{
+    height: 340px;
+    width: 100%;
+    object-fit: cover;
+}
